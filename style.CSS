@@ -1,0 +1,166 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+
+  
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color:#3D1238; 
+  font-family:Arial,sans-serif;
+}
+
+header{
+  text-align:center;
+  padding:60px 20px;
+}
+main{
+  padding:25px;
+}
+/* STYLE TEXT */
+
+h1 {
+  color:#edff99;
+  font-size:50px;
+   font-family:Georgia,serif;
+}
+
+h2{
+  color:#effcb6;
+   font-family:Georgia,serif;
+   padding:2px;
+}
+
+p{
+  color:#F1E6DC;
+}
+
+header p{
+   margin:10px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+main p{
+  font-size:18px;
+}
+
+
+h3{
+  color:#f3ffbd;
+font-size:20px;
+ padding:2px;
+}
+
+
+/* STYLE IMAGES */
+img{
+  border-radius:10px;
+  max-width: 250px;
+  height: 180px;
+}
+
+/* STYLE NAV BAR */
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+  background-color:#2B0D28;
+  padding:10px;
+}
+nav a{
+  color:#effcb6;
+  background-color:
+  font-size:19px;
+  text-decoration:none;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+/*cards styling*/
+
+.cards {
+  display: flex;
+  gap: 20px;
+  text-align:center;
+ 
+}
+
+.cards div {
+  width: 30%;
+  background-color:#2B0D28;
+  padding:20px;
+  border-radius:10px;
+}
+
+.cards img {
+  width: 100%;
+  height: 180px;
+}
+
+/*why does it matter styling*/
+
+.why{
+  text-align:center;
+  padding:20px;
+  margin:20px;
+  background-color:#2B0D28;
+  border-radius:10px;
+}
+
+/*fact generator styling*/
+
+
+.gen {
+  text-align: center;
+  background-color: #2B0D28;
+  border-radius:10px;
+  padding:20px;
+  margin:20px auto;
+  width:500px;
+  border-style:solid;
+  border-color:#edff99;
+}
+
+.gen h2{
+  font-size:20;
+  margin-bottom:15px;
+}
+
+#fact{
+  font-size:20px;
+  font-weight:bold;
+  margin:10px;
+  color:white;
+}
+
+
+
+
+#factbtn {
+  background-color: #edff99;
+   color: #3D1238;
+  padding:10px 15px;
+     border-radius: 6px;
+  font-size: 15px;
+   margin:10px;
+  font-weight:bold;
+}
+
+/*sources styling*/
+
+
+.sources ul{
+  list-style:none;
+}
+
+
+ .sources a {
+  color: #F1E6DC;
+   
+}
+
+
