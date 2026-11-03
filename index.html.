@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Arwa.k</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+
+    
+<!-- nav bar --> 
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">home</a>
+        </li>
+
+        <li>
+          <a href="generator">Fact Genrator</a>
+        </li>
+      </ul>
+    </nav>
+
+    
+    
+    <header id="home">
+    <h1>Think beyond what you see</h1>
+      <p>
+        Explore global issues.Question information.Think critically
+ </p>
+    </header>
+
+
+    
+
+    <!-- cards -->
+
+    <main>
+
+     <div class="cards">
+      
+      <div>
+        <img src="assets/hum.jpg" alt="humans in the street">
+        <h3>
+          Human Rights
+        </h3>
+        <p>
+          everyone deserves equality and acsess to basic human rights like food,healthcare,freedom and Education.yet some many prople ariund the world still face barriers to these rights because of their gender,background,or circumstances.
+        </p>
+      </div>
+
+  <div>
+        <img src="assets/war.jpg" alt="war affected city">
+        <h3>
+          Wars & Justice
+        </h3>
+        <p>
+          International laws exist to protect civilians,but are they always enforced?
+        </p>
+      </div>
+
+       <div>
+        <img src="assets/med.jpg" alt="truth fact in green.fake news in red">
+        <h3>
+          Media&truth
+        </h3>
+        <p>
+          Not everything we see online is accurate.Misinformation can shape how we see&understand the world
+        </p>
+      </div>
+       </div>
+
+
+
+      
+<!-- why does it matter part -->
+
+      <div class="why">
+      <h2>
+        Why does it matter
+      </h2>
+      <p>
+       Understanding what is hapening around the world is important.it helps us see things from different prespectives.
+        and understand how these issues affect people lives,and learn how we can help
+ </p>
+        </div>
+
+
+<!--fact generator part  -->
+      
+
+      <div class="gen">
+        <h2 id="generator">
+          Facts Generator
+        </h2>
+        <p>
+          Click to learn somthing new!
+        </p>
+        <button id="factbtn">FACT</button>
+
+<p id="fact">International humanitarian law requires parties to armed conflicts to distinguish between civilians and combatants. Attacks must not be directed against civilians.</p>
+      
+        
+        <p>Then share it with friends! :)       
+        </p>
+        
+      </div>
+
+
+<!-- sources part -->
+
+
+      
+    <div class="sources">
+      <h3>
+        Sources
+      </h3>
+
+      <ul>
+
+        <li>
+          <a href="https://chile.unwomen.org/en/digital-library/publications/2026/02/brief-normalized-no-more-an-evidenced-based-guide-to-measuring-sexual-harassment">UN Women - Sexual Harassment</a>
+        </li>
+
+        <li>
+          <a href="https://www.unicef.org/child-rights-convention/convention-text?utm_source">UNICEF - Children's Right to Education</a>
+        </li>
+
+          <li>
+            <a href="https://www.unicef.org/sop/media/6361/file/Humanitarian%20Situation%20Update%20-%2030%20April%202026%20-%20Education.pdf.pdf?utm">UNICEF - Gaza Education</a>
+          </li>
+
+        <li>
+          <a href="https://ihl-databases.icrc.org/en/customary-ihl/v1/rule1?facet=app&mode=light&utm">ICRC - Rules of war</a>
+        </li>
+
+        <li>
+          <a  href="https://unesdoc.unesco.org/ark:/48223/pf0000265552?utm">UNESCO - Misinformation & Disinformation</a>
+        </li>
+
+        
+      </ul>
+
+
+
+      
+    </div>
+      
+
+
+
+    </main>
+
+      
+
+   
+    
+  </body>
+</html>
